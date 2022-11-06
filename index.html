@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="Content/custom.css" rel="stylesheet" />
+    <link href="Content/app.ab58cc034110.css" rel="stylesheet" />
+    <title>Rent WiFi Across Canada</title>
+    <meta name="description" content="WiFiPool.ca is designed to help you save money on WiFi setup also earn passive income by sharing your own WiFi.">
+    <link rel="stylesheet" href="Content/bootstrap.min.css">
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <nav class="navbar-main">
+            <div class="container d-flex justify-content-between">
+                <div class="navbar-main__left">
+                    <img height="30" width="30" src="Images/WPLogo.png" />
+                    <a href="#" class="main-logo main-logo--light">WiFiPool.ca</a>
+                    <a href="#" class="navbar-main__text-item d-none d-md-inline" data-msgid="Rent Report" data-current-language="en">Rent Report</a>
+                    <a href="#" class="navbar-main__text-item d-none d-md-inline" data-msgid="Blog" data-current-language="en">Blog</a>
+                </div>
+                <div class="navbar-main__right">
+                    <a href="#" class="navbar-main__text-item d-none d-lg-inline" data-msgid="Login" data-current-language="en">Login</a>
+                    <label class="switcher-checkbox-labeled language-switcher d-none d-xl-block switcher-checkbox-labeled--left-active">
+                        <input type="checkbox">
+                        <div class="switcher-checkbox-labeled__labels">
+                            <span class="switcher-checkbox-labeled__label-left">EN</span>
+                            <span class="switcher-checkbox-labeled__label-right">FR</span>
+                        </div>
+                    </label>
+                    <a href="#" class="btn-cta btn-cta--secondary btn-cta--border-transparent d-none d-sm-inline-block" data-msgid="Lend Your WiFi" data-current-language="en">
+                        Lend Your WiFi
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="page-home">
+            <div class="page-home__hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 mx-auto">
+                            <div class="page-home__hero-title">
+                                <h1>Rent Your WiFi</h1>
+                                <h2>Earn passive income by sharing your WiFi</h2>
+                            </div>
+                            <div class="page-home__hero-search">
+                                <div class="search-main">
+                                    <div class="search-control">
+                                        <div id="autosuggest" class="autosuggest">
+                                            <input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-owns="autosuggest__results" aria-activedescendant="" aria-haspopup="false" aria-expanded="false" placeholder="Search City, Neighbourhood or Address" class="search-control__input">
+                                            <div class="autosuggest__results-container"><!----></div>
+                                        </div>
+                                        <svg class="svg-inline--fa fa-search fa-w-16 search-control__input-icon" aria-hidden="true" focusable="false" data-prefix="far" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor" d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z"></path>
+                                        </svg>
+                                        <!-- <i class="search-control__input-icon far fa-search"></i> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <div class="page-home__search-items">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-home__search-items-title">
+                                <h1>Popular Cities</h1>
+                                <h2>Find WiFi in your neighbourhood anywhere in Canada</h2>
+                            </div>
+                            <div class="container">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                                        <li data-target="#myCarousel" data-slide-to="8"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <a href="#"><img src="Images/toronto.92c21524707a.jpg" alt="Toronto" style="width:100%;" /><h3><span>Toronto</span> <br><span></span></h3></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#"><img src="Images/calgary.e57bfdf61e23.jpg" alt="Calgary" style="width:100%;"> <h3><span>Calgary</span> <br> <span></span></h3></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#"><img src="Images/edmonton.88416a8d98f1.jpg" alt="Edmonton" style="width:100%;"> <h3><span>Edmonton</span> <br> <span></span></h3></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#"><img src="Images/toronto.92c21524707a.jpg" alt="Toronto" style="width:100%;" /><h3><span>Toronto2</span> <br><span></span></h3></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#"><img src="Images/calgary.e57bfdf61e23.jpg" alt="Calgary" style="width:100%;"> <h3><span>Calgary2</span> <br> <span></span></h3></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#"><img src="Images/edmonton.88416a8d98f1.jpg" alt="Edmonton" style="width:100%;"> <h3><span>Edmonton2</span> <br> <span></span></h3></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#"><img src="Images/toronto.92c21524707a.jpg" alt="Toronto" style="width:100%;" /><h3><span>Toronto3</span> <br><span></span></h3></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#"><img src="Images/calgary.e57bfdf61e23.jpg" alt="Calgary" style="width:100%;"> <h3><span>Calgary3</span> <br> <span></span></h3></a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="#"><img src="Images/edmonton.88416a8d98f1.jpg" alt="Edmonton" style="width:100%;"> <h3><span>Edmonton3</span> <br> <span></span></h3></a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Left and right controls -->
+                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="page-home__search-items-list-secondary">
+                                <ul>
+                                    <li><a href="#">Brampton Apartments</a></li>
+                                    <li><a href="#">Burnaby Apartments</a></li>
+                                    <li><a href="#">Fredericton Apartments</a></li>
+                                    <li><a href="#">Gatineau Apartments</a></li>
+                                    <li><a href="#">Kelowna Apartments</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Kingston Apartments</a></li>
+                                    <li><a href="#">Kitchener Apartments</a></li>
+                                    <li><a href="#">Markham Apartments</a></li>
+                                    <li><a href="#">Mississauga Apartments</a></li>
+                                    <li><a href="#">Moncton Apartments</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Red Deer Apartments</a></li>
+                                    <li><a href="#">Regina Apartments
+                                    <li><a href="#">Richmond Hill Apartments</a></li>
+                                    <li><a href="#">Saint John Apartments</a></li>
+                                    <li><a href="#">St. Catharines Apartments</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">St. John's Apartments</a></li>
+                                    <li><a href="#">Surrey Apartments</a></li>
+                                    <li><a href="#">Vaughan Apartments</a></li>
+                                    <li><a href="#">Victoria Apartments</a></li>
+                                    <li><a href="#">Windsor Apartments</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-lg-flex justify-content-lg-between">
+                            <a href="#" class="footer__logo">
+                                <img height="30" width="30" src="Images/WPLogo.png" /> WiFiPool.ca
+                            </a>
+                            <ol class="footer__links ml-lg-auto d-flex flex-column flex-lg-row">
+                                <li class="mx-md-1 mx-lg-2"><a href="#" target="_blank" data-msgid="Rent Report" data-current-language="en">Rent Report</a></li>
+                                <li class="mx-md-1 mx-lg-2"><a href="#" target="_blank" data-msgid="Blog" data-current-language="en">Blog</a></li>
+                                <li class="mx-md-1 mx-lg-2"><a href="#" data-msgid="Contact" data-current-language="en">Contact</a></li>
+                                <li class="mx-md-1 mx-lg-2"><a href="#" data-msgid="Terms" data-current-language="en">Terms</a></li>
+                                <li class="mx-md-1 mx-lg-2"><a href="#" data-msgid="Privacy Policy" data-current-language="en">Privacy Policy</a></li>
+                                <li class="mx-md-1 mx-lg-2"><a href="#">Français (FR)</a></li>
+                            </ol>
+                        </div> <hr size="1">
+                    </div>
+                    <div class="col-12 d-lg-flex justify-content-between">
+                        <ol class="footer__topsearches">
+                            <li><h3 data-msgid="Popular Searches" data-current-language="en">Popular Searches</h3></li>
+                            <li><a href="#" data-msgid="WiFis Near Me" data-current-language="en">WiFis Near Me</a></li>
+                            <li><a href="#" data-msgid="Free WiFi Near Me" data-current-language="en">Free Wifi Near Me</a></li>
+                            <li><a href="#" data-msgid="Fast Speed Wifi Near Me" data-current-language="en">Fast Speed Wifi Near Me</a></li>
+                            <li><a href="#" data-msgid="Cheap WiFi Near Me" data-current-language="en">Cheap WiFi Near Me</a></li>
+                            <li><a href="#" data-msgid="All WiFi Near Me" data-current-language="en">All WiFi Near Me</a></li>
+                            <li><a href="#" data-msgid="" data-current-language="en"></a></li>
+                        </ol>
+                        <ol class="footer__landlordlinks text-center text-lg-left">
+                            <li><h3 data-msgid="Owners" data-current-language="en">Owners</h3></li>
+                            <li>
+                                <a href="#" target="_blank" class="btn-cta btn-cta--secondary btn-cta--border-transparent" data-msgid="Lend Your WiFi" data-current-language="en">
+                                    Lend Your WiFi
+                                </a>
+                            </li>
+                            <li><a href="#" data-msgid="My Listings" data-current-language="en">My Listings</a></li>
+                            <li><a href="#" data-msgid="Email Preferences" data-current-language="en">Email Preferences</a></li>
+                            <li><a href="#" data-msgid="Contact Support" data-current-language="en">Contact Support</a></li>
+                        </ol>
+                        <ol class="footer__appslinks">
+                            <li><h3 data-msgid="Lenders Apps" data-current-language="en">Lenders Apps</h3></li>
+                            <li>
+                                <a href="#" target="_blank" rel="noopener nofollow" title="Download on the App Store" class="main-logo main-logo--light">
+                                    <img width="151" height="50" src="Images/AppStore.2b25357b4dbb.svg" alt="Download on the App Store">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" rel="noopener nofollow" title="Get it on Google Play" class="main-logo main-logo--light">
+                                    <img width="151" height="46" src="Images/GooglePlay.0d50431a5610.svg" alt="Get it on Google Play">
+                                </a>
+                            </li>
+                        </ol>
+                        <ol class="footer__sociallinks d-lg-flex flex-lg-wrap align-content-lg-start">
+                            <li class="flex-fill d-none d-lg-block"><h3 data-msgid="Social Media" data-current-language="en">Social Media</h3></li>
+                            <li>
+                                <a href="#" target="_blank" rel="noopener nofollow" title="Facebook" id="social-link-fb">
+                                    <img width="30" height="40" src="Images/GooglePlay.0d50431a5610.svg" alt="Get it on Google Play">
+                                </a>
+                            </li>
+                            <li><a href="#" target="_blank" rel="noopener nofollow" title="Youtube" id="social-link-yt"></a></li>
+                            <li><a href="#" target="_blank" rel="noopener nofollow" title="Instagram" id="social-link-ig"></a></li>
+                            <li><a href="#" target="_blank" rel="noopener nofollow" title="LinkedIn" id="social-link-in"></a></li>
+                            <li><a href="#" target="_blank" rel="noopener nofollow" title="Twitter" id="social-link-tw"></a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer__copyright">
+                            <span class="d-block d-sm-inline" data-msgid="Made in" data-current-language="en">Made in</span>&nbsp;<img src="Images/flag.dd1a5604255c.svg" alt="Canada">
+                            <span class="d-block d-sm-inline" data-msgid="Copyright" data-current-language="en">Copyright</span>&nbsp;©&nbsp;
+                            <span>2022</span>&nbsp;WiFiPool.ca Network,&nbsp;Inc.
+                            <span class="d-block d-sm-inline" data-msgid="All rights reserved." data-current-language="en">All rights reserved.</span>
+                        </div>
+                    </div>
+                </div>
+            </div> <div class="footer__background">&nbsp;</div>
+        </div>
+        <div id="light-gallery"></div>
+    </div>
+</body>
+</html>
