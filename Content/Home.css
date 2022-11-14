@@ -15436,7 +15436,7 @@ a.label.label--primary:hover {
 .footer__background {
     background-position: -50% bottom;
     background-size: 80rem !important;
-    background: #364143 url("../Images/bg.png") bottom repeat-x;
+    background: #364143 url("Images/bg.png") bottom repeat-x;
     height: 8.5rem;
     margin-top: 5rem;
     opacity: .75
@@ -20390,7 +20390,7 @@ body #nprogress .peg {
 
 .page-home__hero {
     height: 45rem;
-    background: #364143 url("../Images/bg.png") bottom repeat-x;
+    background: #364143 url("Images/bg.png") bottom repeat-x;
     background-size: 1280px
 }
 
